@@ -52,7 +52,8 @@ while opcao != 0:
 else:
     print("\nObrigado por usar nosso sistema bancario, ate mais") 
 
- opcao = 0
+ 
+opcao = 0
 
 while opcao % 2 != 1:
     opcao = int(input("Informe um numero: "))
@@ -72,7 +73,7 @@ while True:
     
     print(numero) 
 
- for numero in range(10000000):
+for numero in range(10000000):
     if numero == 4173829:
         break        
 
