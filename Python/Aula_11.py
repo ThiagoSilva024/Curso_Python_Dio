@@ -1,3 +1,4 @@
+#Operadores Logicos
 """ print(True and True)
 print(True and False)
 print(False and False)
@@ -9,7 +10,6 @@ print(not(True and False))
 print(not(True or False))
 print(not(True or True))
 print(not(False or False)) """
-
 
 saldo = 1000
 saque = 250
