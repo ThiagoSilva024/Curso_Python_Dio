@@ -1,0 +1,52 @@
+1- Configuracao de usuario:
+Ao instalar o git e executa-lo pela primeira vez e necessario
+fazer a configuracao de usuario.
+
+	*Comando para configuracao de usuario:
+		git config --global user.name "Thiago Henrique"
+		git config --global user.name "Thiago Henrique"
+		git config --global user.name "Thiago Henrique"
+		git config --global user.name "Thiago Henrique"
+		git config --global user.name "Thiago Henrique"
+
+	*Comando para configuracao de email:
+		git config --global user.email "tiagohsilva15@outlook.com.br"
+		git config --global user.email "tiagohsilva15@outlook.com.br"
+		git config --global user.email "tiagohsilva15@outlook.com.br"
+		git config --global user.email "tiagohsilva15@outlook.com.br"
+		git config --global user.email "tiagohsilva15@outlook.com.br"
+		
+	*Comando que possibilita verificar o usuario configurado:
+		git config --list
+		git config --list
+		git config --list
+		git config --list
+		git config --list
+
+2- Configurando chave SSH:
+Passo a passo de como configurar uma chave SSH
+	
+	*Cria arquivo com chave SSH, tendo duas chaves(publica, privada):
+		ssh-keygen
+		ssh-keygen
+		ssh-keygen
+		ssh-keygen
+		ssh-keygen
+	
+	*Apos criar a chave entrar no diretorio onde foi gerado e salvo o 
+	arquivo com a chave(O diretorio sera exibido no processo anterior)
+	use o commando abaixo para no git dentro da pasta da chave para gerar
+	a chave que sera usada para configuracao:
+		cat nome_chave.pub
+		cat nome_chave.pub
+		cat nome_chave.pub
+		cat nome_chave.pub
+		cat nome_chave.pub
+	
+	*Com a chave gerada acesse as configuracoes do GitHub para add a chave
+	gerada:
+
+	*Caso esteja conectado no GitHub pela URL use o comando
+	abaixo para trocar para SSH:
+		git remote set-url origin chave_ssh
+		
